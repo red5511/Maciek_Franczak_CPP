@@ -66,9 +66,6 @@ int main(int argc, char** argv)
         {
             function5(var1, var1);
         }
-        else {
-            cout << "Niema takiej komedy" << endl;
-        }
     }
 
     return 0;
