@@ -20,12 +20,18 @@ int value(int x)
     return value;
 }
 
+int* tab() {
+    static int a[3] = { 1,2,3 };
+    return a;
+}
+
 
 int main() {
 
     cout << ref(1) << endl;
     cout << adres(1) << " " << *adres(1) << endl;
     cout << value(1) << endl;
+    cout << tab() << endl;
 
 
 
