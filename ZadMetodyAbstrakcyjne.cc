@@ -1,4 +1,6 @@
 #include <iostream>
+#include <math.h>   
+
 using namespace std;
 
 
@@ -63,6 +65,24 @@ public:
         std::cout << " Obwod to " << 2*a + 2*b << std::endl;
     }
 };
+class Kolo : public Figura
+{
+public:
+    void Narysuj() {
+        cout << "Przepis na narysowanie kola" << endl;
+    }
+    void Pole(float r) {
+        std::cout << " POle to " << 3.14 * r * r << std::endl;
+    }
+    void Obwod(float r) {
+        std::cout << " Obwod to " << 2 * r * 3.14 << std::endl;
+    }
+    void r_convid(float pole) {
+        float buf = pole / 3.14;
+        std::cout << " r_convid to " << sqrt(buf) << std::endl;
+
+    }
+};
 
 
 
@@ -85,6 +105,13 @@ int main()
     objProstokat->Narysuj();
     objProstokat->Pole(3, 3);
     objProstokat->Obwod(3, 3);
+
+    //Figura* objKolo = new Kolo(); nie dziala dla r_convid
+    Kolo* objKolo = new Kolo();
+    objKolo->Narysuj();
+    objKolo->Pole(3);
+    objKolo->Obwod(3);
+    objKolo->r_convid(28.26);
 
 
    // Kwadrat fig;    //ERROR
