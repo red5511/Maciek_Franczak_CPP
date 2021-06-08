@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/ZadKlasa.dir/src/ZadKcpp.cc.o  -o ZadKlasa 

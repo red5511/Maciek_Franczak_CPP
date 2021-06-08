@@ -1,0 +1,3 @@
+/home/szymon/ZadClassKcpp,/CMakeFiles/rebuild_cache.dir
+/home/szymon/ZadClassKcpp,/CMakeFiles/edit_cache.dir
+/home/szymon/ZadClassKcpp,/CMakeFiles/ZadKlasa.dir
